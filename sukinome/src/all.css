@@ -133,10 +133,10 @@ header{
     color: black;
 }
 input, select, textarea{
-    color: #ffffff;
+    color: #0e0c0c;
 }
 textarea:focus, input:focus{
-    color: #ffffff;
+    color: #0c0b0b;
 }
 
 @media only screen and (max-width: 500px){
