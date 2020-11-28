@@ -115,5 +115,10 @@ position: absolute;
     background-color: rgb(182, 181, 181);
     color: black;
 }
-
+input, select, textarea{
+    color: #ffffff;
+}
+textarea:focus, input:focus{
+    color: #ffffff;
+}
 
