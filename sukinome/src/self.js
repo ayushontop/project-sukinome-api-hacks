@@ -3,10 +3,12 @@ import './all.css'
 
 function Self() {
     return (
-        <div className='self'>
-            <h2>Disposable Mail Checker</h2>
-    <p>As the uses of internet is increasing day by day many peoples are misusing this power by creating fake id's due to which not even internet community but companies also face problems, To solve this most common prblem we created a disposable mail checker</p>
+        <div className='self-container'>
+        <div className='card self'>
+        <h2 className='has-text-centered'>Disposable Mail Checker</h2>
+        <p>This days people are misusing the disposable or fake emails for threatning, spamming and for other malicious purposes by creating multiple fake accounts. So Through this app we can discourage people from creating account by fake or disposable emails. </p>
             
+        </div>
         </div>
     )
 }

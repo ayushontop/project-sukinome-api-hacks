@@ -1,11 +1,12 @@
 import Email from './email';
-import Button from './btn';
 
 window.addEventListener("load", function () {
-    let input = document.querySelector('#inputEmail');
-    let btn = document.querySelector('.btn');
-
+    let input = document.querySelector("#inputEmail");
+    
+    let btn = document.querySelector("#checkBtn");
+    console.log('hello');
     btn.addEventListener('click', function () {
+        
         const email = input.value;
         const api = `https://disposable.debounce.io/?email=${email}`;
         console.log(api);
@@ -23,7 +24,7 @@ window.addEventListener("load", function () {
                     alert("This is disposable Email!");
                 }
                 else{
-                    alert("This is not disposable Email!");
+                    alert("This is not a disposable Email!");
                 }
             });
 
