@@ -3,7 +3,7 @@ import './App.css';
 import Starting from './Starting';
 import Self from './self';
 import Email from './email';
-import Button from './btn';
+
 
 
 
@@ -15,8 +15,6 @@ function App() {
       <Starting/>
       <Self/>
       <Email/>
-      
-      <Button/>
       </div>
 
       
