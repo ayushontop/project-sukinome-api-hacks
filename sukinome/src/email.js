@@ -4,13 +4,14 @@ import './check';
 
 function Email() {
     return (
-        <div className='email-container'>
+        <div className='email-container mb-3'>
         
-        <div className='email card'>
+        <form className='email card' id='emailForm'>
         <label className="label">Enter-Email: </label>
         <div className="field">
   <p className="control has-icons-left has-icons-right">
-    <input className="input" id='inputEmail' type="email" placeholder="Email" />
+    <input id='inputEmail' className="input is-success" type="email" placeholder="Email" required/>
+    
     <span className="icon is-small is-left">
       <i className="fas fa-envelope"></i>
     </span>
@@ -23,12 +24,12 @@ function Email() {
 
 <div className="field">
   <p className="control ">
-    <button className="button is-success is-rounded" id= 'checkBtn'>
-      check
+    <button className="button is-success is-rounded is-hovered"  type='submit' id= 'checkBtn'>
+      Check
     </button>
   </p>
 </div>
-</div>
+</form>
 </div>
     )
 }
