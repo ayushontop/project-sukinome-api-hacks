@@ -11,6 +11,7 @@ you can notice the diffrence.
 
 ![](src/Screenshot_2020-11-29-11-15-57-36.jpg)
 # Getting Started with Create React App
+We made the site totally responsive for mobile as well as for pc 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
