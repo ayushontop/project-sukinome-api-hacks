@@ -1,6 +1,6 @@
 import React from 'react'
 import './all.css'
-import './check';
+
 
 function Email() {
     return (

@@ -5,8 +5,7 @@ import Self from './self';
 import Email from './email';
 import NavBar from './NavBar';
 import Alert from './modalAlert';
-
-
+import './check';
 
 
 function MainPage() {

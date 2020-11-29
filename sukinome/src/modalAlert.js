@@ -4,7 +4,7 @@ import './check';
 function Alert() {
   return (
     <div className="Alert">
-        <div className="modal ">
+        <div className="modal mx-3">
   <div className="modal-background"></div>
   <div className="modal-card">
     <header className="modal-card-head has-background-success">

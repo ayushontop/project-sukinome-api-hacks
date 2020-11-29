@@ -1,16 +1,23 @@
 
 import './App.css';
-
+import {Link} from 'react-router-dom';
 
 
 function NavBar() {
+    function openMenu(){
+        let menu = document.getElementById('menu');
+        menu.classList.toggle('is-active');
+        
+        
+    }
+
   return (
-      <div className="App">
+      <div className="Nav">
           <nav className="navbar has-shadow is-dark mb-3">
         <div className="navbar-brand">
             
-            <a href="" className="navbar-item is-uppercase has-text-light is-size-4 py-2 pl-4 ">Anime</a>
-            <a className='navbar-burger ' id='burger'>
+            <Link to='/' className="navbar-item is-uppercase has-text-light is-size-4 py-2 pl-4 ">Anime</Link>
+            <a className='navbar-burger ' id='burger' onClick={openMenu}>
                 <span></span>
                 <span></span>
                 <span></span>
@@ -19,8 +26,8 @@ function NavBar() {
         </div>
         <div className="navbar-menu" id='menu'>
             <div className="navbar-end">
-                <a className='navbar-item ' href='/'>Home</a>
-                <a className='navbar-item ' id='nav-projects'>Projects</a>
+                <Link className='navbar-item ' to='/'>Home</Link>
+                <Link className='navbar-item ' to='/next'>Bulk Check</Link>
                 
             </div>
 
