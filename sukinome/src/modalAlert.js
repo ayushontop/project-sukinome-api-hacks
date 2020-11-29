@@ -4,9 +4,9 @@ import './check';
 function Alert() {
   return (
     <div className="Alert">
-        <div className="modal mx-3">
+        <div className="modal ">
   <div className="modal-background"></div>
-  <div className="modal-card">
+  <div className="modal-card mx-3">
     <header className="modal-card-head has-background-success">
       <p className="modal-card-title has-text-light has-text-centered">Message!!</p>
     </header>

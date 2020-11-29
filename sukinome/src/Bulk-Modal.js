@@ -4,10 +4,10 @@ import './Bulk-Email-Check.js';
 function BulkModal() {
    
   return (
-    <div className="Bulk-Modal mx-3">
+    <div className="Bulk-Modal">
     <div className="modal " id='BulkModal'>
   <div className="modal-background"></div>
-  <div className="modal-card">
+  <div className="modal-card mx-3">
     <header className="modal-card-head">
       <p className="modal-card-title has-text-centered is-success">Results!!</p>
       
