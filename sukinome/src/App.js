@@ -1,9 +1,8 @@
 
-import './App.css';
-import Starting from './Starting';
-import Self from './self';
-import Email from './email';
 
+
+import MainPage from './MainPage';
+import { Route, BrowserRouter as Router,Switch } from 'react-router-dom';
 
 
 
@@ -11,11 +10,17 @@ import Email from './email';
 
 function App() {
   return (
-      <div>
-      <Starting/>
-      <Self/>
-      <Email/>
-      </div>
+      <div className="App">
+    
+    <Router>
+    
+      <Switch>
+      <Route path="/" component={MainPage} />
+      
+      </Switch>
+    </Router>
+     
+    </div>
 
       
   
