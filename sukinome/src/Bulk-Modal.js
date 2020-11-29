@@ -7,9 +7,9 @@ function BulkModal() {
     <div className="Bulk-Modal">
     <div className="modal " id='BulkModal'>
   <div className="modal-background"></div>
-  <div className="modal-card mx-3">
-    <header className="modal-card-head">
-      <p className="modal-card-title has-text-centered is-success">Results!!</p>
+  <div className="modal-card px-3">
+    <header className="modal-card-head has-background-success">
+      <p className="modal-card-title has-text-centered has-text-light">Results!!</p>
       
     </header>
     <section className="modal-card-body has-text-dark " id='bulkDiv'>
