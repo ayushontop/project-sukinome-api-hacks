@@ -7,6 +7,9 @@ Our Idea behind this : Our Aim is to create a cyber security feature through the
 You can check its working by getting a temp mail from any site like temp-mail.org and paste it in email box after all that press check, After that try it with your real email id 
 you can notice the diffrence. 
 
+# Special Changes for semifinals 
+- We come with an extraordinary feaature now you can check emails in this app, Imagine you got list of emails for marketing but many of them are temperory mails how you will filter it out, here comes our which make your life simple just use our bulk email checker. 
+![](src/sssukinom.png)
 # Screenshot 
 
 ![](src/Screenshot_2020-11-29-11-15-57-36.jpg)
