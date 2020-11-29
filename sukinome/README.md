@@ -8,7 +8,7 @@ You can check its working by getting a temp mail from any site like temp-mail.or
 you can notice the diffrence. 
 
 # Special Changes for semifinals 
-- We come with an extraordinary feaature now you can check emails in this app, Imagine you got list of emails for marketing but many of them are temperory mails how you will filter it out, here comes our which make your life simple just use our bulk email checker. 
+- We come with an extraordinary feaature now you can check emails in this app, Imagine you got list of emails for marketing but many of them are temperory mails how you will filter it out, here comes our app which make your life simple just use our bulk email checker. 
 ![](src/sssukinom.png)
 # Screenshot 
 
