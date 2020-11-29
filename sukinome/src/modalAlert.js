@@ -6,7 +6,7 @@ function Alert() {
     <div className="Alert">
         <div className="modal ">
   <div className="modal-background"></div>
-  <div className="modal-card">
+  <div className="modal-card px-3">
     <header className="modal-card-head has-background-success">
       <p className="modal-card-title has-text-light has-text-centered">Message!!</p>
     </header>
