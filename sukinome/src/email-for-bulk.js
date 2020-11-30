@@ -9,6 +9,7 @@ function Email() {
         let BulkModal = document.getElementById('BulkModal');
     
         BulkModal.classList.add('is-active');
+        return false;
     }
     
     return (

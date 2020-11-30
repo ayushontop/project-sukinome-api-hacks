@@ -1,4 +1,4 @@
-import Email from './email';
+
 
 window.addEventListener("load", function () {
     let input = document.querySelector("#inputEmail");
@@ -7,11 +7,13 @@ window.addEventListener("load", function () {
     console.log('hello');
     if(emailForm!==null){
     emailForm.addEventListener('submit',(e)=>{
+
         e.preventDefault();
+        
         const email = input.value;
 
         const api = `https://disposable.debounce.io/?email=${email}`;
-        console.log(api);
+        
         let modal = document.querySelector('.modal');
         let modalTextContent = document.getElementById('alert-content');
         fetch(api)

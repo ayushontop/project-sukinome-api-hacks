@@ -6,7 +6,7 @@ import Email from './email';
 import NavBar from './NavBar';
 import Alert from './modalAlert';
 import './check';
-
+import GotoBtn from './go-to-bulk-check-btn';
 
 function MainPage() {
   return (
@@ -16,6 +16,7 @@ function MainPage() {
         <Self />
         <Email />
         <Alert />
+        <GotoBtn />
       </div>
 
       
