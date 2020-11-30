@@ -12,7 +12,7 @@ function Alert() {
     </header>
     <section className="modal-card-body" >
         {/* content */}
-        <p id='alert-content' class='has-text-dark'></p>
+        <p id='alert-content' className='has-text-dark'></p>
     </section>
     <footer className="modal-card-foot">
       <button className="button is-success" id='modalCloseBtn' >Close</button>

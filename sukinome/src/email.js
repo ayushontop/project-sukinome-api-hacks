@@ -2,11 +2,15 @@ import React from 'react'
 import './all.css'
 
 
+
 function Email() {
+    function handleSubmit(){
+        return false;
+    }
     return (
-        <div className='email-container mb-3'>
+        <div className='email-container mb-3 '>
         
-        <form className='email card' id='emailForm'>
+        <form className='email card' id='emailForm' onSubmit={handleSubmit}>
         <label className="label">Enter-Email: </label>
         <div className="field">
   <p className="control has-icons-left has-icons-right">
@@ -30,6 +34,8 @@ function Email() {
   </p>
 </div>
 </form>
+
+
 </div>
     )
 }

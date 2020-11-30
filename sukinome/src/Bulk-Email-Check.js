@@ -8,11 +8,17 @@ let input = document.querySelector("#inputEmail");
 if(emailFormTwo!==null){
 emailFormTwo.addEventListener('submit',(e)=>{
         e.preventDefault();
+        console.log('yes');
         const allEmails = input.value;
-let array = allEmails.split(/(\s+)/).filter( function(e) { return e.trim().length > 0; } );
+// let oldRe = /(\s+)/;
+var re = /(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))/g;
+// let array = allEmails.split(oldRe).filter( function(e) { return e.trim().length > 0; } );
+let array = allEmails.match(re);
 
 let bulkDiv = document.getElementById('bulkDiv');
-bulkDiv.textContent = '';
+if(bulkDiv.textContent !== ''){
+    bulkDiv.textContent = '';
+}
 
 async function temp(){
 for(let i=0; i<array.length; i++ ){
