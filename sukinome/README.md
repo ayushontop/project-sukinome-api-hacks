@@ -1,3 +1,6 @@
+# Special Changes for Finals 
+Now you can paste paragraph we will automatically scrape emails from your pragraphs.
+
 # Accesing Project
 You can simply see deployed version here: https://sukinome.herokuapp.com/
 
